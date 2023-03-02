@@ -64,7 +64,7 @@ void setup()
 void loop()
 {
     next_currentState = debounce(next_lastState, next); // notre debounce fonctionne pour notre bouton
-    
+
     if (next_lastState == LOW && next_currentState == HIGH) // lorque le bouton est pressé
     {                
         lcd.clear();                    // l'écran LCD sera effacé et passera à la page suivante.
